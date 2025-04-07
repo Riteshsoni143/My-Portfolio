@@ -110,6 +110,10 @@ nav .logo{
     padding-bottom:20px;
 }
 
+#home .details .contact-links a:hover{
+    text-decoration:underline;
+}
+
 #home .image{
     width:300px;
     height:300px;
@@ -137,12 +141,11 @@ nav .logo{
     font-size:30px;
     color:white;
     padding:10px 0 15px 0;
-    display:flex;
-    align-items:center;
 }
 
 #home h2 span{
     color:rgb(10, 131, 244);
+    text-align:center;
 }
 
 #home p{
@@ -352,7 +355,6 @@ nav .logo{
     #home .details{
         width:50%;
         padding:10px;
-        display:flex;
     }
 
     #home .details h1{
