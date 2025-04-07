@@ -329,6 +329,10 @@ nav .logo{
         display:none;
     }
 
+    #project{
+        width:600px;
+    }
+
     #contact{
         width:640px;
     }
