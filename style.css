@@ -106,7 +106,7 @@ nav .logo{
 
 #home .details .contact-links{
     display:flex;
-    font-size:23px;
+    font-size:18px;
     padding-bottom:20px;
 }
 
@@ -363,7 +363,6 @@ nav .logo{
 
     #home .details h2, span{
         font-size:30px;
-        text-align:center;
     }
 }
 
