@@ -26,6 +26,7 @@ nav{
     justify-content:space-between;
     position:fixed;
     top:0;
+    left:0;
 }
 
 nav .logo{
