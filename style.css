@@ -169,7 +169,7 @@ nav .logo{
 /* about section */
 #about{
     width:100%;
-    padding:30px;
+    padding:10px;
     margin-bottom:150px;
 }
 
@@ -258,7 +258,7 @@ nav .logo{
     box-shadow: 4px 4px 10px rgb(10, 131, 244),
     -4px -4px 10px rgb(10, 131, 244);
     padding:30px 20px;
-    margin:30px;
+    margin:40px;
     background:rgb(13, 13, 13);
 }
 
@@ -327,6 +327,10 @@ nav .logo{
 
     .menu-icon, #sidebar{
         display:none;
+    }
+
+    #about{
+        padding:0 30px;
     }
 
     #project{
