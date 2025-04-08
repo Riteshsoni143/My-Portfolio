@@ -242,6 +242,7 @@ nav .logo{
     font-size:25px;
     margin-bottom:20px;
     box-shadow:0 3px 5px rgb(10, 131, 244);
+    text-align:center;
 }
 
 #project a:hover{
@@ -340,7 +341,7 @@ nav .logo{
     }
 
     #project{
-        width:600px;
+        width:400px;
     }
 
     #contact{
