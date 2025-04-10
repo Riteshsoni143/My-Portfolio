@@ -172,6 +172,9 @@ nav .logo{
     width:100%;
     padding:0 30px;
     margin-bottom:150px;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
 }
 
 .details-container{
@@ -400,6 +403,64 @@ nav .logo{
 
     #about{
         width:924px;
+    }  
+}
+
+@media(max-width:420px) {
+    #project{
+        width:320px;
     }
-    
+}
+
+@media(max-width:390px) {
+    #about{
+        padding-left:40px;
+    }
+
+    #project{
+        width:300px;
+    }
+
+    #contact{
+        padding-left:40px;
+    }
+}
+
+@media(max-width:360px) {
+    #about{
+        padding-left:50px;
+    }
+
+    #project{
+        width:100%;
+        margin-left:30px;
+    }
+
+    #contact{
+        padding-left:50px;
+    }
+}
+
+@media(max-width:320px) {
+    #about{
+        padding-left:60px;
+    }
+
+    #project{
+        margin-left:45px;
+    }
+
+    #contact{
+        padding-left:90px;
+    }
+}
+
+@media(max-width:290px) {
+    #project{
+        margin-left:65px;
+    }
+
+    #contact{
+        padding-left:110px;
+    }
 }
